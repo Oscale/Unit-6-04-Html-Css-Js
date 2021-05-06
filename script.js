@@ -14,7 +14,6 @@ let anwser = 0
 /* This function is the calculator which outputs to the "Results Here" box. */
 
 function CalButton () {
-
   /* To be able to call apon the value inserted by the user,I make sure that my Js will take the ".value" from the input boxes in the html to this function. */
 
   basea = document.getElementById('basea').value
@@ -45,5 +44,4 @@ function CalButton () {
   /* Finally, after following the order of operations for the trapezoid formula in Js I change the text of the anwserbox to equal the result of the calculations. */
 
   document.getElementById('anwserbox').innerHTML = anwser
-
 }
